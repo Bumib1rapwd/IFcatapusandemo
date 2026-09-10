@@ -1,0 +1,28 @@
+
+
+namespace IFcatapusandemo
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            int age = Convert.ToInt32(txtAge.Text);
+
+            if (age >= 18) 
+            {
+
+                lblResult.Text = "You are an adult";
+            }
+        }
+    }
+}
